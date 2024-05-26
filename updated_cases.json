@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "Problem": {
+            "INPUT_TEXT": "Ergocalciferol is indicated for use in the treatment of hypoparathyroidism, refractory rickets, also known as vitamin D resistant rickets, and familial hypophosphatemia.",
+            "SENT_TEXT": [
+                "Ergocalciferol is indicated for use in the treatment of hypoparathyroidism, refractory rickets, also known as vitamin D resistant rickets, and familial hypophosphatemia."
+            ],
+            "LENGTH": 26
+        },
+        "Solution": {
+            "Instruction_Prompt": "what conditions are the drug mentioned in the text treat for?  Limit answer to the condition name. "
+        }
+    },
+    {
+        "id": 2,
+        "Problem": {
+            "INPUT_TEXT": "Torsemide tablets are a loop diuretic indicated for: the treatment of edema associated with heart failure, renal disease or hepatic disease. ( 1.1 ) the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. ( 1.2 )",
+            "SENT_TEXT": [
+                "Torsemide tablets are a loop diuretic indicated for: the treatment of edema associated with heart failure, renal disease or hepatic disease.",
+                "( 1.1 ) the treatment of hypertension, to lower blood pressure.",
+                "Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions.",
+                "( 1.2 )"
+            ],
+            "LENGTH": 59
+        },
+        "Solution": {
+            "Instruction_Prompt": "what conditions are the drug mentioned in the text treat for?  Limit answer to the condition name. "
+        }
+    },
+    {
+        "id": 3,
+        "Problem": {
+            "INPUT_TEXT": "Amlodipine besylate tablets, USP is a calcium channel blocker and may be used alone or in combination with other antihypertensive and antianginal agents for the treatment of: Hypertension ( 1.1 ) Amlodipine besylate tablets, USP are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. Coronary Artery Disease ( 1.2 ) Chronic Stable Angina Vasospastic Angina (Prinzmetal\u201a\u00c4\u00f4s or Variant Angina) Angiographically Documented Coronary Artery Disease in patients without heart failure or an ejection fraction &lt; 40%",
+            "SENT_TEXT": [
+                "Amlodipine besylate tablets, USP is a calcium channel blocker and may be used alone or in combination with other antihypertensive and antianginal agents for the treatment of: Hypertension ( 1.1 )",
+                "Amlodipine besylate tablets, USP are indicated for the treatment of hypertension, to lower blood pressure.",
+                "Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions.",
+                "Coronary Artery Disease ( 1.2 ) Chronic Stable Angina Vasospastic Angina (Prinzmetal\u201a\u00c4\u00f4s or Variant Angina) Angiographically Documented Coronary Artery Disease in patients without heart failure or an ejection fraction &lt; 40%"
+            ],
+            "LENGTH": 106
+        },
+        "Solution": {
+            "Instruction_Prompt": "what main diseases mentioned in the text? The answers are the main disease categories in each item ( 1.1 ), ( 1.2 ) in the text ... Don't include symptoms, only disease. "
+        }
+    },
+    {
+        "id": 4,
+        "Problem": {
+            "INPUT_TEXT": "Omeprazole is a proton pump inhibitor (PPI) indicated for the: \u201a\u00c4\u00a2 Treatment of active duodenal ulcer in adults (1.1) \u201a\u00c4\u00a2 Eradication of Helicobacter pylori to reduce the risk of duodenal ulcer recurrence in adults (1.2) \u201a\u00c4\u00a2 Treatment of active benign gastric ulcer in adults (1.3) \u201a\u00c4\u00a2 Treatment of symptomatic gastroesophageal reflux disease (GERD) in patients 2 years of age and older (1.4) \u201a\u00c4\u00a2 Maintenance of healing of EE due to acid-mediated GERD in patients 2 years of age and older (1.6) \u201a\u00c4\u00a2 Pathologic hypersecretory conditions in adults (1.7)",
+            "SENT_TEXT": [
+                "Omeprazole is a proton pump inhibitor (PPI) indicated for the: \u201a\u00c4\u00a2 Treatment of active duodenal ulcer in adults (1.1) \u201a",
+                "\u00c4\u00a2 Eradication of Helicobacter pylori to reduce the risk of duodenal ulcer recurrence in adults (1.2) \u201a\u00c4\u00a2 Treatment of active benign gastric ulcer in adults (1.3) \u201a\u00c4\u00a2 Treatment of symptomatic gastroesophageal reflux disease (GERD) in patients 2 years of age and older (1.4) \u201a\u00c4\u00a2 Maintenance of healing of EE due to acid-mediated GERD in patients 2 years of age and older (1.6) \u201a\u00c4\u00a2 Pathologic hypersecretory conditions in adults (1.7)"
+            ],
+            "LENGTH": 113
+        },
+        "Solution": {
+            "Instruction_Prompt": "what diseases or conditions that are treated by the drug in the text?  The answers are diseases or conditions mentioned in each item  ( 1.1 ), ( 1.2 ), (1.3) ... in the text. "
+        }
+    },
+    {
+        "id": 5,
+        "Problem": {
+            "INPUT_TEXT": "Ofloxacin ophthalmic solution is indicated for the treatment of infections caused by susceptible strains of the following bacteria in the conditions listed below: CONJUNCTIVITIS: Gram-positive bacteria: Gram-negative bacteria: Staphylococcus aureus Enterobacter cloacae Staphylococcus epidermidis Haemophilus influenzae Streptococcus pneumoniae Proteus mirabilis Pseudomonas aeruginosa CORNEAL ULCERS: Gram-positive bacteria: Gram-negative bacteria: Staphylococcus aureus Pseudomonas aeruginosa Staphylococcus epidermidis Serratia marcescens* Streptococcus pneumoniae Anaerobic species: Propionibacterium acnes *Efficacy for this organism was studied in fewer than 10 infections.",
+            "SENT_TEXT": [
+                "Ofloxacin ophthalmic solution is indicated for the treatment of infections caused by susceptible strains of the following bacteria in the conditions listed below: CONJUNCTIVITIS: Gram-positive bacteria: Gram-negative bacteria: Staphylococcus aureus Enterobacter cloacae Staphylococcus epidermidis Haemophilus influenzae Streptococcus pneumoniae Proteus mirabilis Pseudomonas aeruginosa CORNEAL ULCERS: Gram-positive bacteria: Gram-negative bacteria: Staphylococcus aureus Pseudomonas aeruginosa Staphylococcus epidermidis Serratia marcescens* Streptococcus pneumoniae Anaerobic species: Propionibacterium acnes *Efficacy for this organism was studied in fewer than 10 infections."
+            ],
+            "LENGTH": 92
+        },
+        "Solution": {
+            "Instruction_Prompt": "The following text describes an indication of a drug. What's the indication for? Each answer should be on a new line. Do not include any other information or formatting, just the names. \nText: "
+        }
+    },
+    {
+        "id": 6,
+        "Problem": {
+            "INPUT_TEXT": "Carefully consider the potential benefits and risks of Ibuprofentablets and other treatment options before deciding to use Ibuprofen.Use the lowest effective dose for the shortest duration consistent withindividual patient treatment goals (see WARNINGS). IBU tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis. IBU tablets are indicated for relief of mild to moderate pain. IBU tablets are also indicated for the treatment of primary dysmenorrhea. Controlled clinical trials to establish the safety and effectiveness of IBU tablets in children have not been conducted.",
+            "SENT_TEXT": [
+                "Carefully consider the potential benefits and risks of Ibuprofentablets and other treatment options before deciding to use Ibuprofen.Use the lowest effective dose for the shortest duration consistent withindividual patient treatment goals (see WARNINGS).",
+                "IBU tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis.",
+                "IBU tablets are indicated for relief of mild to moderate pain.",
+                "IBU tablets are also indicated for the treatment of primary dysmenorrhea.",
+                "Controlled clinical trials to establish the safety and effectiveness of IBU tablets in children have not been conducted."
+            ],
+            "LENGTH": 98
+        },
+        "Solution": {
+            "Instruction_Prompt": "The following text describes an indication of a drug. What's the indication for? Each answer should be on a new line. Do not include any other information or formatting, just the names. \nText: "
+        }
+    },
+    {
+        "id": 7,
+        "Problem": {
+            "INPUT_TEXT": "DIFFERIN Gel is indicated for the topical treatment of acne vulgaris in patients 12 years of age and older.",
+            "SENT_TEXT": [
+                "DIFFERIN Gel is indicated for the topical treatment of acne vulgaris in patients 12 years of age and older."
+            ],
+            "LENGTH": 20
+        },
+        "Solution": {
+            "Instruction_Prompt": "The following text describes an indication of a drug. What's the indication for? Each answer should be on a new line. Do not include any other information or formatting, just the names. \nText: "
+        }
+    },
+    {
+        "id": 8,
+        "Problem": {
+            "INPUT_TEXT": "Bortezomib for injection is a proteasome inhibitor indicated for: treatment of adult patients with multiple myeloma ( 1.1 ) treatment of adult patients with mantle cell lymphoma ( 1.2 )",
+            "SENT_TEXT": [
+                "Bortezomib for injection is a proteasome inhibitor indicated for: treatment of adult patients with multiple myeloma ( 1.1 ) treatment of adult patients with mantle cell lymphoma ( 1.2 )"
+            ],
+            "LENGTH": 31
+        },
+        "Solution": {
+            "Instruction_Prompt": "The following text describes an indication of a drug. What's the indication for? Each answer should be on a new line. Do not include any other information or formatting, just the names. \nText: "
+        }
+    }
+]
